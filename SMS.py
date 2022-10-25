@@ -9,6 +9,19 @@ import random
 import socket
 import requests
 
+def clear():
+	if os.name=='nt':os.system('cls')
+	else:os.system('clear')
+clear()
+
+key="dong123"
+keynhap=input("Nhập Key Để Vào Tool : ")
+if keynhap == key:
+	print("Key Đúng Rùiiii!!!!")
+else:
+	print("key sai cut con bà mày")
+	quit()
+
 
 class SPAM:
     def __init__(self):
@@ -44,7 +57,7 @@ class SPAM:
     def banner(self):
         os.system("cls" if os.name == "nt" else "clear")
         title = '\n\n\n---By Đồng đẹp zai nhất hệ mặt trời ---'
-        banner = '''\n ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+        banner = '''\n▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 ██░▄▄▀█░▄▄▀█░▄▄▀█░▄▄▄████░▄▄▀█▀▄▄▀█░▄▄▀█░▄▄▄
 ██░██░█░▀▀░█░██░█░█▄▀████░██░█░██░█░██░█░█▄▀
 ██░▀▀░█▄██▄█▄██▄█▄▄▄▄████░▀▀░██▄▄██▄██▄█▄▄▄▄
